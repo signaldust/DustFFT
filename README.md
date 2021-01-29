@@ -15,4 +15,5 @@ This version is unchanged from the 2014 version, except for the
 additional real/half-complex wrappers.
 
 While it does power-of-two only, it should be reasonably fast
-and works perfectly fine at least up to a few million points.
+and works perfectly fine at least up to a few million points
+and has been written to be somewhat cache-aware.
