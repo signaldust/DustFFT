@@ -4,6 +4,9 @@ This is my old single-file double-precision SSE2 FFT.
 You can copy the header part into a separate file, or you
 can include the C-file with `DUSTFFT_HEADER_ONLY` defined.
 
+While it compiles as C++ the performance is known to be better
+at least with some compilers when compiled as regular C.
+
 This version is unchanged from the 2014 version,
 except for the additional real/half-complex wrappers.
 
