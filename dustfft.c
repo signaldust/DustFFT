@@ -31,6 +31,9 @@ void DustFFT_revD(double * buf, unsigned n);
 void DustFFT_fwdDa(double * buf, unsigned n);
 void DustFFT_revDa(double * buf, unsigned n);
 
+/* These do real to half-complex FFT and half-complex to real IFFT.
+   Implemented as simple wrappers around half-size complex FFT.
+*/
 void DustFFT_r2cD(double * buf, unsigned n);
 void DustFFT_c2rD(double * buf, unsigned n);
 
