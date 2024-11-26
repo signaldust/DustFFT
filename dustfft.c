@@ -1,6 +1,6 @@
 
 /****************************************************************************\
-* DustFFT - (c) Copyright pihlaja@signaldust.com 2014                        *
+* DustFFT - (c) Copyright pihlaja@signaldust.com 2014-2024                   *
 *----------------------------------------------------------------------------*
 * You can use and/or redistribute this for whatever purpose, free of charge, *
 * provided that the above copyright notice and this permission notice appear *
