@@ -4755,7 +4755,6 @@ void DustFFT_c2rD(double * buf, unsigned n)
     buf[0] = x0 + x1;
     buf[1] = x0 - x1;
   }
-  if(n2>=2) { buf[n2] *= 2; buf[n2+1] *= 2; }
   DustFFT_revD(buf, n2);
 }
 #endif
