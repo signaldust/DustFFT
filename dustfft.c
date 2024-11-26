@@ -4683,7 +4683,7 @@ void DustFFT_r2cD(double * buf, unsigned n)
       rw1 = 1; iw1 = 0;
   }
   
-  for(i = 1; i < n4; ++i)
+  for(i = 1; i <= n4; ++i)
   {
     double r1, i1, r2, i2, rt, it;
     double f1, f2, f3, f4;
@@ -4726,7 +4726,7 @@ void DustFFT_c2rD(double * buf, unsigned n)
       rw1 = 1; iw1 = 0;
   }
   
-  for(i = 1; i < n4; ++i)
+  for(i = 1; i <= n4; ++i)
   {
     double r1, i1, r2, i2, rt, it;
     double f1, f2, f3, f4;
